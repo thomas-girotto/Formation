@@ -11,11 +11,15 @@ namespace Exercice1
         private const double LowPressureThreshold = 17;
         private const double HighPressureThreshold = 21;
 
-        Sensor _sensor = new Sensor();
+        private ISensor _sensor;
 
         bool _alarmOn = false;
         private long _alarmCount = 0;
 
+        public Alarm(ISensor sensor)
+        {
+            _sensor = sensor;
+        }
 
         public void Check()
         {
