@@ -1,0 +1,3 @@
+- Test the Alarm class
+- What if we needed to also test that the Sensor class is giving us random numbers
+- What if the Sensor class was in another library that you can't touch?
