@@ -47,6 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sensor.cs" />
     <Compile Include="SensorAdapter.cs" />
+    <Compile Include="Utils\DefaultRandomNumberProvider.cs" />
+    <Compile Include="Utils\RandomNumberProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
