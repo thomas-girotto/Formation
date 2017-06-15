@@ -7,7 +7,7 @@ namespace Exercice1.Tests
     public class AlarmTest
     {
         private Alarm _alarm;
-        private ISensor _fakeSensor = Substitute.For<ISensor>();
+        private ISensorAdapter _fakeSensor = Substitute.For<ISensorAdapter>();
 
         [SetUp]
         public void Setup()
