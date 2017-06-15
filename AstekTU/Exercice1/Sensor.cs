@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Exercice1.Utils;
+using System;
 
 namespace Exercice1
 {
@@ -16,9 +17,8 @@ namespace Exercice1
 
         private static void SamplePressure(out double pressureTelemetryValue)
         {
-            // placeholder implementation that simulate a real sensor in a real tire
-            Random basicRandomNumbersGenerator = new Random();
-            pressureTelemetryValue = 6 * basicRandomNumbersGenerator.NextDouble() * basicRandomNumbersGenerator.NextDouble();
+            pressureTelemetryValue = 6 * RandomNumberProvider.Current.NextDouble() 
+                * RandomNumberProvider.Current.NextDouble();
         }
     }
 }
