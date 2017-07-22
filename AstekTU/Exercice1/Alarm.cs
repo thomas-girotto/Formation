@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercice1
 {
@@ -11,15 +7,11 @@ namespace Exercice1
         private const double LowPressureThreshold = 17;
         private const double HighPressureThreshold = 21;
 
-        private ISensorAdapter _sensor;
+        Sensor _sensor = new Sensor();
 
         bool _alarmOn = false;
         private long _alarmCount = 0;
 
-        public Alarm(ISensorAdapter sensor)
-        {
-            _sensor = sensor;
-        }
 
         public void Check()
         {
@@ -36,6 +28,5 @@ namespace Exercice1
         {
             get { return _alarmOn; }
         }
-
     }
 }

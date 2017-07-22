@@ -5,7 +5,7 @@ namespace HelloWorldDI
     public class SalutationTest
     {
         [Test]
-        public void Should_Write_HelloWorld_To_The_Console()
+        public void Should_write_HelloWorld_to_the_console()
         {
             // Find a way to check that HelloWorld is sent to the Console
         }
