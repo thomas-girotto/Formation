@@ -1,41 +1,13 @@
-﻿using NFluent;
-using NSubstitute;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace HelloWorldDI
 {
     public class SalutationTest
     {
         [Test]
-        public void Should_Write_HelloWorld_with_custom_spy()
+        public void Should_Write_HelloWorld()
         {
-            // Given
-            var spy = new MessageWriterSpy();
-            var salutation = new Salutation(spy);
-
-            // When
-            salutation.Salute();
-
-            // Then
-            Check.That(spy.TextWritten).IsEqualTo("Hello World");
-        }
-        
-        [Test]
-        public void Should_Write_HelloWorld_With_mock_library()
-        {
-            // Given
-            var fakeMessageWriter = Substitute.For<IMessageWriter>();
-            string writtenText = string.Empty;
-            fakeMessageWriter
-                .When(x => x.Write(Arg.Any<string>()))
-                .Do(args => writtenText = args.Arg<string>());
-            var salutation = new Salutation(fakeMessageWriter);
-
-            // When
-            salutation.Salute();
-
-            // Then
-            Check.That(writtenText).IsEqualTo("Hello World");
+            // Find a way to check that HelloWorld is sent to the Console
         }
     }
 }
