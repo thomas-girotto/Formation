@@ -52,7 +52,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalutationTest.cs" />
-    <Compile Include="SpyMessageWriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HelloWorldDI\HelloWorldDI.csproj">

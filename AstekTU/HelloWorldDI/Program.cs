@@ -6,8 +6,7 @@ namespace HelloWorldDI
     {
         public static void Main()
         {
-            var salutation = new Salutation(new ConsoleMessageWriter());
-            salutation.Salute();
+            Console.WriteLine("HelloWorld");
             Console.ReadKey();
         }
     }
