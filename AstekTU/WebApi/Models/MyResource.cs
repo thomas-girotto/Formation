@@ -1,12 +1,11 @@
 ﻿namespace WebApi.Models
 {
-    public class Game
+    public class MyResource
     {
-        public Game()
+        public MyResource()
         {
         }
 
         public int Id { get; set; }
-        public string UserName { get; set; }
     }
 }

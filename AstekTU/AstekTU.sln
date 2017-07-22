@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "WebApi.Tests\WebApi.Tests.csproj", "{7D0541A8-F655-4264-82BC-384331906AAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata", "FizzBuzzKata\FizzBuzzKata.csproj", "{C4C264DD-C259-4B43-962B-F9A602028DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzKata.Tests", "FizzBuzz.Tests\FizzBuzzKata.Tests.csproj", "{C18EE35E-FD6B-4D1F-97F3-318061832C30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{7D0541A8-F655-4264-82BC-384331906AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D0541A8-F655-4264-82BC-384331906AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D0541A8-F655-4264-82BC-384331906AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C264DD-C259-4B43-962B-F9A602028DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C264DD-C259-4B43-962B-F9A602028DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C264DD-C259-4B43-962B-F9A602028DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C264DD-C259-4B43-962B-F9A602028DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18EE35E-FD6B-4D1F-97F3-318061832C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18EE35E-FD6B-4D1F-97F3-318061832C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18EE35E-FD6B-4D1F-97F3-318061832C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18EE35E-FD6B-4D1F-97F3-318061832C30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

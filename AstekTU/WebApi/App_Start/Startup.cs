@@ -8,6 +8,7 @@ using System.Linq;
 using System.Reflection;
 using System.Web;
 using System.Web.Http;
+using WebApi.Services;
 
 [assembly: OwinStartup(typeof(WebApi.App_Start.Startup))]
 namespace WebApi.App_Start
