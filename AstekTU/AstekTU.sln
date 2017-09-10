@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice1", "Exercice1\Exercice1.csproj", "{4DCB3060-1E33-4C00-B3FF-DEFAA45D7BEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmExo", "AlarmExo\AlarmExo.csproj", "{4DCB3060-1E33-4C00-B3FF-DEFAA45D7BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice1.Tests", "Exercice1.Tests\Exercice1.Tests.csproj", "{0F5F8877-9C7B-4467-AD83-AD9CF32DA9C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmExo.Tests", "AlarmExo.Tests\AlarmExo.Tests.csproj", "{0F5F8877-9C7B-4467-AD83-AD9CF32DA9C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldDI", "HelloWorldDI\HelloWorldDI.csproj", "{49E193FE-7BB0-46A3-9019-842993FE415B}"
 EndProject
@@ -60,5 +60,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA2B93C6-C7C4-42C6-A22C-8AB7939E5107}
 	EndGlobalSection
 EndGlobal
